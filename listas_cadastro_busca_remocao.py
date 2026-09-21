@@ -141,6 +141,20 @@ def remover_usuario():
 
 
 # ==========================================
+# NÚMERO DE USUÁRIOS
+# ==========================================
+
+# Função para listar a quantidade dos usuários cadastrados
+def qnt_nomes():
+    verificar_qnt = input("Deseja ver a quantidade usuários? (s/n): ").strip().lower()
+
+    if verificar_qnt == "s":
+        print("O número de usuários ativos é de: {}.\nE de usuários inativos é de: {}.".format(len(ativos), len(inativos)))
+
+    return 0
+
+
+# ==========================================
 # PROGRAMA PRINCIPAL
 # ==========================================
 
@@ -162,6 +176,8 @@ remover = input("Deseja remover um usuário? (s/n): ").strip().lower()
 if remover == "s":
     remover_usuario()
 
+# NÚMERO DE USUÁRIOS
+qnt_nomes()
 
 # LISTAGEM FINAL
 listar_nomes()
