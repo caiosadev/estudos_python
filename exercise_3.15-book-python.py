@@ -10,7 +10,9 @@ dia_minuto = 24 * 60 #conversao de 24 (1 dia) em minutos
 dias_perdidos = conversao_ano * tempo_cigarro_dia / dia_minuto #quantos dias perdeu
 conversao_dias_perdidos_minutos = dias_perdidos * dia_minuto #dias para minutos
 
-total_cigarros_consumidos = cigarros_dia * anos_consumo * 365 #quantidade de cigarros fumados ao longo da vida
+#quantidade de cigarros fumados ao longo da vida
+total_cigarros_consumidos = cigarros_dia * anos_consumo * 365 
 
 print("Você fumou {} cigarros" .format(total_cigarros_consumidos))
-print("Você perdeu {:.2f} dias de vida, equivalentes à {} minutos" .format(dias_perdidos, conversao_dias_perdidos_minutos))
+print("Você perdeu {:.2f} dias de vida, equivalentes à {} minutos"
+      .format(dias_perdidos, conversao_dias_perdidos_minutos))

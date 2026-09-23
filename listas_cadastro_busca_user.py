@@ -3,10 +3,12 @@ ativos = []
 inativos = []
 
 def cadastro_nome(): #função criada para não ter que repetir no loop ao final
-    nome = input("Digite o nome que deseja adicionar (0 para sair): ").strip().capitalize() #strip() remove espaços em branco no início e no final
+    #strip() remove espaços em branco no início e no final
+    nome = input("Digite o nome que deseja adicionar (0 para sair): ").strip().capitalize() 
     return nome
-
-nome = cadastro_nome() # chamando a função para funcionar, ou seja, é como se escrevesse o input para o usuário cadastrar o nome do usuário
+# chamando a função para funcionar, ou seja, é como se escrevesse o input para o usuário 
+#cadastrar o nome do usuário
+nome = cadastro_nome() 
 
 while nome != "0": #diferente de 0 executa o loop
     if nome == "":
@@ -27,11 +29,14 @@ while nome != "0": #diferente de 0 executa o loop
                 print(nome, "foi adicionado aos inativos.")
         else: #se o usuário não digitar a ou i, mostra a mensagem abaixo
             print("Tipo inválido. Digite 'a' ou 'i'.")
+            
+#chamando a função para não ter que repetir o input completo, aqui repete o 
+#cadastro do próximo nome no loop
+    nome = cadastro_nome() 
 
-    nome = cadastro_nome() #chamando a função para não ter que repetir o input completo, aqui repete o cadastro do próximo nome no loop
-
-
-verificar = input("Deseja ver as listas de ativos e inativos? (s/n): ").lower() #lower() transforma em minúsculo o que o usuário digitar, substitui if verificar == "s" or verificar == "S"
+#lower() transforma em minúsculo o que o usuário digitar, substitui if 
+#verificar == "s" or verificar == "S"
+verificar = input("Deseja ver as listas de ativos e inativos? (s/n): ").lower() 
 
 if verificar == "s":
     print("Lista de ativos:", ativos)
@@ -43,8 +48,10 @@ buscar = input("Digite o nome que deseja buscar: ").strip().lower()
 ativos_minusculos = [nome.lower() for nome in ativos] #transforma tudo em minúsculo
 inativos_minusculos = [nome.lower() for nome in inativos]
 
-if buscar in ativos_minusculos and buscar in inativos_minusculos: #verifica em qual lista o nome foi cadastrado
-    print(f"{buscar.capitalize()} está na lista de ativos e na lista de inativos.") #capitalize() padroniza os nomes digitados
+#verifica em qual lista o nome foi cadastrado
+if buscar in ativos_minusculos and buscar in inativos_minusculos: 
+    #capitalize() padroniza os nomes digitados
+    print(f"{buscar.capitalize()} está na lista de ativos e na lista de inativos.") 
 elif buscar in ativos_minusculos:
     print(f"{buscar.capitalize()} está na lista de ativos.")
 elif buscar in inativos_minusculos:

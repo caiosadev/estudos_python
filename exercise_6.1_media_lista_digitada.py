@@ -1,4 +1,5 @@
-notas = [0,0,0,0,0,0,0] #lista sem valores pois o usuário vai digitar as notas para serem armazenadas aqui.
+#lista sem valores pois o usuário vai digitar as notas para serem armazenadas aqui.
+notas = [0,0,0,0,0,0,0] 
 soma = 0
 x = 0 #iniciando a contagem do índice da lista, sempre em 0.
 
@@ -13,4 +14,5 @@ while x < 7:
     print("Nota %d: {:.2f}" .format(x, notas[x]))
     x +=1 #nova repetição com novos valores inseridos na lista pelo usuário.
 
-print("Média: {:.2f}" .format(soma/x)) #exibe a soma dos valores e a divisão pelo número total de índices na lista = média das notas.
+#exibe a soma dos valores e a divisão pelo número total de índices na lista = média das notas.
+print("Média: {:.2f}" .format(soma/x)) 

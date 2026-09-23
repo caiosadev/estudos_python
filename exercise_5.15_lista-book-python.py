@@ -19,7 +19,8 @@ while True:
     if produto == 0:
         break
 
-    elif produto not in produtos: #não muda conforme o número de produtos, pois está usando a lista (dicionário).
+#não muda conforme o número de produtos, pois está usando a lista (dicionário).
+    elif produto not in produtos: 
         print("Código de produto inválido.")
 
     else:

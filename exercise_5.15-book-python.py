@@ -9,7 +9,8 @@ preco4 = 7.00
 produto5 = 5
 preco5 = 8.00
 
-def calcular_total(produto, quantidade_vendida): #função que calcula o total de cada produto vendido.
+#função que calcula o total de cada produto vendido.
+def calcular_total(produto, quantidade_vendida): 
     if produto == 1:
         total = preco1 * quantidade_vendida
 
@@ -39,7 +40,8 @@ while True:
     if produto == 0:
         break
 
-    elif produto < 1 or produto > 5: #precisa mudar se mudar o número de produtos. Mas pode ser feito com dicionário (lista).
+#precisa mudar se mudar o número de produtos. Mas pode ser feito com dicionário (lista).
+    elif produto < 1 or produto > 5: 
         print("Código de produto inválido.")
 
     else:

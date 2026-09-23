@@ -9,7 +9,8 @@ else:
 
 
 
-#Usando variáveis para os cálculos de acordo com a quilometragem, caso no futuro esses valores mudem, tornando fácil a atualização.
+#Usando variáveis para os cálculos de acordo com a quilometragem, 
+#caso no futuro esses valores mudem, tornando fácil a atualização.
 viagem = float(input("Qual a distância que gostaria de percorrer? "))
 
 base_viagem = viagem

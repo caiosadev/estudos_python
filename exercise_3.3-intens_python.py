@@ -1,7 +1,8 @@
 bikes = ["trek", "cannondale", "redline", "specialized", "caloi"]
 x = 0
 
-print("As bikes são: " + str(bikes)) #chamando a função str() para transformar a lista em string, assim podemos imprimir a lista inteira.
+print("As bikes são: " + str(bikes)) 
+#chamando a função str() para transformar a lista em string, assim podemos imprimir a lista inteira.
 
 while True:
     escolha = int(input("De 1 a 5, qual das bikes você quer escolher? (Digite 0 para finalizar) "))

@@ -6,7 +6,8 @@ L4 = []
 x = 0
 
 while x < len(L3):
-    if L3[x] not in L4: # not in é uma função que verifica se o elemento está na lista, caso não esteja, ele adiciona na lista.
+# not in é uma função que verifica se o elemento está na lista, caso não esteja, ele adiciona na lista.
+    if L3[x] not in L4: 
         L4.append(L3[x])
     x += 1
 

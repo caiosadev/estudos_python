@@ -5,7 +5,8 @@ seno = sin(radians(angulo))
 cosseno = cos(radians(angulo))
 tangente = tan(radians(angulo))
 
-print("O seno será: {:.2f}; o cosseno será: {:.2f}; e a tangente será: {:.2f}" .format(seno, cosseno, tangente))
+print("O seno será: {:.2f}; o cosseno será: {:.2f}; e a tangente será: {:.2f}"
+      .format(seno, cosseno, tangente))
 
 print("="* 40)
 
@@ -19,4 +20,5 @@ seno = radianos - (radianos ** 3) / 6
 cosseno = 1 - (radianos ** 2) / 2
 tangente = radianos + (radianos ** 3) / 3
 
-print("O seno será {:.2f}; o cosseno será {:.2f}; e a tangente será: {:.2f}" .format(seno, cosseno, tangente))
+print("O seno será {:.2f}; o cosseno será {:.2f}; e a tangente será: {:.2f}"
+      .format(seno, cosseno, tangente))

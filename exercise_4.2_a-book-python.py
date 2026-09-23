@@ -1,5 +1,6 @@
 salario = float(input("Qual o seu salário atual? "))
-base = salario #definição de uma nova variável pois o salário precisa ficar fixo no print, porém ele muda conforme o cálculo de imposto
+base = salario #definição de uma nova variável pois o salário precisa ficar fixo no print, 
+#porém ele muda conforme o cálculo de imposto
 imposto = 0 #declaração inicial
 
 #1000 isento

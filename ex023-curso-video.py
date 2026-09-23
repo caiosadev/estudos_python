@@ -7,4 +7,5 @@ dezena = num[2]
 centena = num[1]
 milhar = num[0]
 
-print("Unidade: {}.\nDezena: {}.\nCentena: {}.\nMilhar: {}." .format(unidade, dezena, centena, milhar))
+print("Unidade: {}.\nDezena: {}.\nCentena: {}.\nMilhar: {}."
+      .format(unidade, dezena, centena, milhar))

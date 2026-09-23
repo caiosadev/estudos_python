@@ -8,4 +8,4 @@ prestacao = valor_casa / meses
 if prestacao <= salario * (30 / 100):
     print("A prestação será de R$ {:.2f}" .format(prestacao))
 else:
-    print("Prestação maior que o recomendado para o seu salário: R$ {:.2f}" .format(prestacao))
+    print("Prestação maior que o recomendado para o seu salário: R$ {:.2f}".format(prestacao))

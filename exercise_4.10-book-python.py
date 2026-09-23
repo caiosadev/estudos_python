@@ -1,4 +1,5 @@
-instalacao = input("Qual o tipo de instalação? (R para residências, I para indústrias e C para comércios) ")
+instalacao = input("Qual o tipo de instalação?"
+                   "(R para residências, I para indústrias e C para comércios) ")
 consumo_kwh = float(input("Quantos kWh consumidos? "))
 preco = 0
 
