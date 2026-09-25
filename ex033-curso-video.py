@@ -16,3 +16,14 @@ if num3 > num1 and num3 > num2:
     maior = num3
     
 print('O menor número é {} e o maior número é {}.'.format(menor, maior))
+
+
+#segunda forma de fazer
+num1 = float(input('Digite o primeiro número: '))
+num2 = float(input('Digite o segundo número: '))
+num3 = float(input('Digite o terceiro número: '))
+
+menor = min(num1, num2, num3)
+maior = max(num1, num2, num3)
+
+print('O menor número é {} e o maior número é {}.'.format(menor, maior))
