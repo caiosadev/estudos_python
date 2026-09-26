@@ -46,7 +46,7 @@ Este repositório serve como um portfólio vivo do meu progresso. Aqui você pod
 
 Se quiser trocar uma ideia sobre código, oportunidades ou apenas fazer networking, fique à vontade para me chamar!
 
-- **LinkedIn:** [Seu LinkedIn Aqui](https://www.linkedin.com/in/caiosadev/)
+- **LinkedIn:** [ver +](https://www.linkedin.com/in/caiosadev/)
 - **E-mail:** [caio@visuals.com.br](mailto:caio@visuals.com.br)
 
 ---
