@@ -1,6 +1,6 @@
 valor = float(input('Digite o valor do produto: R$ '))
-metodo_pag = int(input('"1" para pagamento no dinheiro/pix,\n"2" para cartão de crédito,'
-                       '\n"3" para 2x no cartão ou \n"4" para 3x ou mais no cartão: '))
+metodo_pag = int(input('[ 1 ] para pagamento no dinheiro/pix,\n[ 2 ] para cartão de crédito,'
+                       '\n[ 3 ] para 2x no cartão ou \n[ 4 ] para 3x ou mais no cartão: '))
 
 dinheiro_pix = valor - (valor * 10) / 100
 cartao = valor - (valor * 5) / 100

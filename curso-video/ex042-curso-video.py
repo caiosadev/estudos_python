@@ -11,5 +11,6 @@ if reta1 + reta2 > reta3 and reta1 + reta3 > reta2 and reta2 + reta3 > reta1:
             print('E o triângulo formado é isóceles')
     else:
                 print('E o triângulo formado é escaleno.')
+
 else:
     print('As retas não podem formar um triângulo.')
