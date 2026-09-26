@@ -9,5 +9,5 @@ if limite_prestacao >= parcela:
     print('Você pode financiar este imóvel, pagando em {:.0f} anos. '
           'As parcelas mensais serão de R$ {:.2f}'.format(anos, parcela))
 else:
-    print('Você não pode financiar esse imóvel, pois as prestações estão '
-          'ultrapassando 30% do seu salário.')
+    print('Você não pode financiar esse imóvel, pois as prestações (R$ {:.2f}) estão '
+          'ultrapassando 30% do seu salário.'.format(parcela))

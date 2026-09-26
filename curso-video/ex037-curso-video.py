@@ -1,10 +1,12 @@
 num = int(input('Digite um número inteiro: '))
-conversao = int(input('Escreva "1" para conversão binária, '
-                      '"2" para octal e "3" para hexadecimal: '))
+conversao = int(input('Escreva [ 1 ] para conversão binária, '
+                      '[ 2 ] para octal e [ 3 ] para hexadecimal: '))
 
 if conversao == 1:
-    print(bin(num))
+    print(bin(num)[2:])
 elif conversao == 2:
-    print(oct(num))
+    print(oct(num)[2:])
+elif conversao == 3:
+    print(hex(num)[2:])
 else:
-    print(hex(num))
+    print('Opção inválida, tente novamente.')
