@@ -1,3 +1,6 @@
+#remove(): remove o item específico, com texto entre aspas. Não é possível armazenar item removido.
+#pop(): remove um item pela posição, índice. E é possível armazenar o item removido em uma variável.
+
 motos = ["honda", "yamaha", "suzuki"]
 print("1: ", motos)
 
@@ -49,7 +52,13 @@ motos.append(ultima_compra)
 print("9: ", motos)
 
 
-#organizando em ordem alfabética permanentemente
-motos.sort()
+#organizando em ordem alfabética (usando a tabela ASCII: maiúsculas antes das minúsculas) permanentemente.
+motos.sort() #motos.sort(reverse=True): ordena ao contrário.
 print("10: ", motos)
-#print(sorted(motos)) - exibe temporariamente a lista em ordem alfabética, sem mudar permanentemente
+#print(sorted(motos)): exibe temporariamente a lista em ordem alfabética, sem mudar permanentemente.
+
+
+#extend() une duas listas em uma só, no exemplo, uniiu a segunda lista na primeira.
+novas_motos = ['hiundai', 'ford']
+motos.extend(novas_motos)
+print("11: ", motos)
