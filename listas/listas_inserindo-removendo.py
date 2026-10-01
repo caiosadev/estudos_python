@@ -5,7 +5,8 @@ motos = ["honda", "yamaha", "suzuki"]
 print("1: ", motos)
 
 
-#insere uma marca ao final da lista
+#insere uma marca ao final da lista, se eu colocar mais de um item como lista, append insere uma
+#lista dentro da outra: .append(['ducati', 'suzuki']) = ['primeira lista', ['segunda lista']]
 motos.append("ducati")
 print("2: ", motos)
 
@@ -58,7 +59,7 @@ print("10: ", motos)
 #print(sorted(motos)): exibe temporariamente a lista em ordem alfabética, sem mudar permanentemente.
 
 
-#extend() une duas listas em uma só, no exemplo, uniiu a segunda lista na primeira.
+#extend() une duas listas em uma só, no exemplo, uniu a segunda lista na primeira.
 novas_motos = ['hiundai', 'ford']
 motos.extend(novas_motos)
 print("11: ", motos)

@@ -15,8 +15,10 @@ while True:
     
 if numeros:
     media = sum(numeros) / len(numeros)
-    print('Foram digitados {} números e a média entre eles é de: {:.1f}.'.format(len(numeros), media))
-    print('O menor número digitado: {} e o maior número digitado: {}.'.format(min(numeros), max(numeros)))
+    print('Foram digitados {} números e a média entre eles é de: {:.1f}.'
+          .format(len(numeros), media))
+    print('O menor número digitado: {} e o maior número digitado: {}.'
+          .format(min(numeros), max(numeros)))
             
 else:
     print('Opção inválida, tente novamente.')
