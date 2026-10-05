@@ -5,3 +5,5 @@ x, y, z = coordenadas
 print(x)
 print(y)
 print(z)
+
+print('Coordenadas: {}, {}, {}'.format(*coordenadas))
