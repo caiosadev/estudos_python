@@ -1,7 +1,7 @@
 usuarios = {
     'ana' : ['admin', 'editor'],
     'bruno' : ['usuario'],
-    'anne' : ['editor']
+    'anne' : ['editor'],
 }
 
 print(usuarios)

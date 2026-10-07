@@ -2,7 +2,7 @@ produtos = {
     'ipad' : 7000,
     'iphone' : 10000,
     'airpods' : 2000,
-    'apple watch' : 5000
+    'apple watch' : 5000,
 }
 
 

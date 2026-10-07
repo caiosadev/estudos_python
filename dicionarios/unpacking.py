@@ -6,7 +6,7 @@ funcionarios = {
     'segundo': {
         'nome' : 'Maria',
         'especialidade' : 'Analista de Dados',
-    }
+    },
 }
 
 while True:
