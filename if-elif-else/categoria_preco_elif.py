@@ -42,4 +42,5 @@ elif categoria == 5:
     preco = 31
 else:
     print("Categoria não cadastrada, tente novamente.")
+    
 print("O preço do produto é R$ {:.2f}" .format(preco))
