@@ -25,6 +25,7 @@ usuarios = {
     },
 }
 
-for chaves, dados in usuarios.items():
+#pode-se usar o undeline quando precisa criar uma variável mas não usar essa variável no restante do código
+for _, dados in usuarios.items(): 
     print(f"O usuário {dados['usuario']}, pertence a(o) {dados['nome']}, " 
           f"que trabalha na empresa {dados['empresa']}.\n")
